@@ -1,0 +1,5 @@
+Writing a new file using write mode.
+Writing a new file using write mode.
+Writing a new file using write mode.
+I am using append mode to add new line at last.
+I am using append mode to add new line at last.

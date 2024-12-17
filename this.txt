@@ -1,0 +1,2 @@
+this is a text file .
+making copy of this file using python in copy.txt
