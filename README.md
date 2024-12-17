@@ -10,7 +10,7 @@ This repository contains a series of Python tutorials structured to help learner
 - **Beginner to Intermediate Coverage**: Tutorials range from Python basics to intermediate concepts.
 - **Comprehensive Topics**: Includes variables, data types, loops, functions, OOP (Object-Oriented Programming), file handling, virtual environments, and more.
 - **Code-First Approach**: All tutorials include runnable Python code with explanatory comments.
-- **Structured Learning**: Files are sequentially numbered for easier navigation and learning.
+- **Structured Learning**: Files are sequentially numbered for easier navigation and learning. 
 
 ## 📂 Folder Structure
 
