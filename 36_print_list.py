@@ -4,3 +4,6 @@ a=0
 while a<len(list):
     print(list[a])
     a=a+1
+
+for item in list:
+    print(item)
