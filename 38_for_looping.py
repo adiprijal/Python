@@ -14,5 +14,24 @@ print(list(num))            # >>> prints [0,1,2,3,4,5,6,7,8,9]  # >>> converts r
 print(num[5])               # >>> prints 5
 
 num2 = range(5,15)
-print(num2)                 # >>> prints range(5,15)
-print(num2[5])              # >>> prints 10
+print(num2)                # >>> prints range(5,15)
+print(num2[5])             # >>> prints 10
+print(num2[3:7])           # >>> prints range(8,12)
+
+iterationNum = 1
+for elements in num2:
+    print(f'Iteration {iterationNum} = {elements}')
+    iterationNum = iterationNum + 1
+
+
+
+# print()       # gives a new line after each print statement
+
+
+String1= "Hello"
+
+constant = 1
+for characters in String1:
+    print(f'Iteration {constant} = {characters}')
+    constant+=1
+    print()
