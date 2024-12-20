@@ -38,3 +38,12 @@ def circumferenceOfCircle(r):
 circumferenceOfCircle(5)
 circumferenceOfCircle(7)
 circumferenceOfCircle(9)
+
+
+# Function 4
+def addition(a,b):
+    x = a + b
+    return x
+
+sum = addition(5,6)
+print(f'The result is {sum}.')
