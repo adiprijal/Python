@@ -37,3 +37,13 @@ dict.pop('number')              # pop('key') deletes that key and value from dic
 print(dict)
 
 dict.popitem()                  # popitem() deletes last key and value from dictionary.
+
+dict.clear()                    # clear() deletes all the keys and values from dictionary.
+
+
+dictionary1 = {'a': 1, 'b': 2, 'c': 3}
+c = 1
+for keys,values in dictionary1.items():
+    print(f'Iteration {c} : Key : {keys} \t Value : {values}')
+    c = c + 1
+    print()
