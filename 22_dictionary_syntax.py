@@ -7,14 +7,15 @@ dict={
     1+1:65
 }
 
+print(dict['game'])               # sports
 print(dict['greeting'])
 print(dict['number'])
 print(dict['digits'])
 print(dict[1+1])
 
-dict['game']=["exercise"]
+dict['game']=["exercise"]       # updating the value of key 'game'.
 print(dict['game'])
 
 print(dict)
 print(dict['new.dict'])
-print(dict['new.dict']['code'])
+print(dict['new.dict']['code'])     # accessing the value of nested dictionary.
