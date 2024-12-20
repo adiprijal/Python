@@ -47,3 +47,13 @@ def addition(a,b):
 
 sum = addition(5,6)
 print(f'The result is {sum}.')
+
+
+# Recursive Function
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+result = factorial(5)
