@@ -1,7 +1,7 @@
 for a in range (10):
     if 5<=a<8:
         # print(a)      >>> 6,7
-        continue      # >>> continue loop ignoring 5<a<8
+        continue      # >>> continue loop ignoring 5<=a<8
     print(a)
 
 
@@ -25,4 +25,4 @@ f=[]
 for fac in range (1,num+1):
     if num%fac==0:
         f.append(fac)
-print(f)
+print(f'Factors of {num} are {f}')
