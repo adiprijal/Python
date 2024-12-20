@@ -5,6 +5,7 @@
 # print(percentage1, percentage2)
 
 
+# Function 1
 def percent(marks):
     # return (sum(marks)/400)*100
     p = (sum(marks)/400)*100
@@ -19,3 +20,21 @@ per2 = percent(marks2)
 marks3 = [56, 68, 39, 45]
 per3 = percent(marks3)
 print(f"{per1}%, {per2}%, {per3}%")
+
+
+# Function 2
+def greet(name):
+    print('Good Day,'+name+'...')
+
+name=input('Enter your name:\n')
+greet(name)
+
+
+# Function 3
+def circumferenceOfCircle(r):
+    circumference = 2 * (22/7) * r
+    print ('The circumference of circle is {}.'.format(circumference))
+
+circumferenceOfCircle(5)
+circumferenceOfCircle(7)
+circumferenceOfCircle(9)
