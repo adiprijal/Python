@@ -1,0 +1,2 @@
+f.write overwrite the content. 
+This is the new text. 
