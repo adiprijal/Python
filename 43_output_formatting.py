@@ -19,3 +19,5 @@ message = input('Enter a departing message\t')
 print('Eveyone please be seated.',message)
 
 # output = 'Everyone please be seated. >user input<'
+
+print(f'{a} is incredibly versatile {b} language.')
