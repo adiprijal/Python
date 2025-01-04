@@ -56,14 +56,18 @@ f = open("sample.txt", "w")
 f.write("f.write overwrite the content. \nThis is the new text. \n")
 f.close()
 
-# import os
-# path="C:\\Users\\rizal\\Desktop\\Adip.psd"
+# Deleting a file 
+import os
+os.remove("sample.txt")
 
-# if os.path.exists(path):
-#     print("Exists.")
-#     if os.path.isfile(path):
-#         print("Is a file.")
-#     elif os.path.isdir(path):
-#         print("Is a directory.")
-# else:
-#     print("Doesn't exists.") 
+# Checking if a file exists
+path="C:\\Users\\rizal\\Desktop\\Adip.psd"
+
+if os.path.exists(path):
+    print("Exists.")
+    if os.path.isfile(path):
+        print("Is a file.")
+    elif os.path.isdir(path):
+        print("Is a directory.")
+else:
+    print("Doesn't exists.") 
