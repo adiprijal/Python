@@ -3,7 +3,7 @@
 try:
     f = open('sample.txt')
     data=f.readline()           # reads first line
-    print(data)
+    print(data,end='')
     data=f.readline()           # reads second line
     print(data)
     f.close()
