@@ -26,9 +26,11 @@ print(d)
 # print("The sum of a and b is ", a+b)
 
 '''
-PascalCase 
-EmployeeName -->PascalCase 
-
-camelCase
-isNumeric, isFloatOrInt -->camelCase
+ pascalCase and camelCase are two naming conventions
+    
+    pascalCase: first letter of each word is capital
+        ex: PascalCase
+    
+    camelCase: first letter of first word is small and first letter of each word after that is capital
+        ex: camelCase
 '''

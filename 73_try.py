@@ -13,5 +13,6 @@ while True:
             print("You entered a number smaller than 55.")
     except Exception as e:
         print(f"**Your input is invalid.")
+        print(f"**Error: {e}")
 
 print("Thank you!!")

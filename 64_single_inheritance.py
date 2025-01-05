@@ -4,7 +4,7 @@ class Employee:
     def showDetails(self):
         print("This is an employee")
 
-class Programmer(Employee):
+class Programmer(Employee):                     # Programmer class is inheriting the Employee class
     language = "Python"
     # company = "Youtube"
 
