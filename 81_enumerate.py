@@ -5,11 +5,11 @@ list1 = [3, 53, 2, False, 6.2, "Adip"]
 #     print(item, index)
 #     index += 1
 
-for  item, index in enumerate(list1):
-    print(item,"->",index)
+# for  item, index in enumerate(list1):           # enumerate() returns index and item
+    # print(item,"->",index)
 
-# for  index, item in enumerate(list1):
-    # print(index,item)
+for  index, item in enumerate(list1):
+    print(index,item)
 
 # for  item, index in enumerate(list1):
 #     print(index,item)
